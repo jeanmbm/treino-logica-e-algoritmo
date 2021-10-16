@@ -23,15 +23,24 @@ public class Ex20 {
 		
 		scan = new Scanner(System.in);
 		
-		System.out.println("Digite a quantidade máxima do produto em estoque");
+		System.out.print("Digite a quantidade máxima do produto em estoque \n(Enter the maximum quantity of the product in stock): ");
 		maxProduct = scan.nextInt();
 		
-		System.out.println("Digite a quantidade mínima do produto em estoque");
+		System.out.println();
+		
+		System.out.print("Digite a quantidade mínima do produto em estoque \n(Enter the minimum quantity of the product in stock): ");
 		minProduct = scan.nextInt();
 		
-		System.out.println("Digite a quantidade atual do produto em estoque");
+		System.out.println();
+		
+		System.out.print("Digite a quantidade atual do produto em estoque \n(Enter current quantity of product in stock): ");
 		quantCurrent = scan.nextInt(); 
 		
+		avarage = (maxProduct + minProduct) / 2;
+		
+		System.out.println();
+		System.out.println((quantCurrent >= avarage) ? "Não efetuar compra" : "Efetuar compra");
+		System.out.println((quantCurrent >= avarage) ? "Do not purchase" : "Make purchase");
 		
 		
 	}

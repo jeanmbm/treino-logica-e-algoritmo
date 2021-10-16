@@ -15,12 +15,11 @@ import java.util.Scanner;
  */
 
 public class Ex05 {
-	
-	static Scanner scan;
 
 	public static void main(String[] args) {
 
-		scan = new Scanner(System.in);
+		double distributorPercentage = 0.28, tax = 0.45;
+		Scanner scan = new Scanner(System.in);
 
 	}
 

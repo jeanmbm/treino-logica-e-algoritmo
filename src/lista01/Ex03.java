@@ -17,35 +17,57 @@ public class Ex03 {
 	
 	public static void main(String[] args) {
 		
-		String county;
-		int totalVoters, blankVotes, nullVotes, validVotes, percentage;
+		String country;
+		int totalVoters, blankVotes, nullVotes, validVotes;
+		double percentage;
 		
 		scan = new Scanner(System.in);
 		
-		System.out.println("Digite o nome do município");
-		county = String.valueOf(scan.nextLine());
+		System.out.print("Digite o nome do município: ");
+//		county = String.valueOf(scan.nextLine());
+		country = "Goiânia";
 		
-		System.out.println("Digite o número total de eleitores do município");
-		totalVoters = scan.nextInt();
+		System.out.print("Digite o número total de eleitores do município: ");
+//		totalVoters = scan.nextInt();
+		totalVoters = 100;
 		
-		System.out.println("Digite o número total de votos em branco");
-		blankVotes = scan.nextInt();
+		System.out.print("Digite o número total de votos válidos: ");
+//		validVotes = scan.nextInt();
+		validVotes = 73;
 		
-		System.out.println("Digite o número total de votos nulos");
-		nullVotes = scan.nextInt();
+		System.out.print("Digite o número total de votos em branco: ");
+//		blankVotes = scan.nextInt();
+		blankVotes = 17;
 		
-		System.out.println("Digite o número total de votos válidos");
-		validVotes = scan.nextInt();
+		System.out.print("Digite o número total de votos nulos: ");
+//		nullVotes = scan.nextInt();
+		nullVotes = 10;
 		
-		System.out.println("============== VOTAÇÃO ==============");
-		System.out.println("Município de " + county);
+		System.out.println();
+		System.out.println();
+		System.out.println("|============== VOTAÇÃO ==============|");
+		System.out.println("Município de " + country);
+		System.out.println("Total de eleitores: " + totalVoters);
 		
-		percentage = 
-		System.out.println("Total de eleitores");
-		System.out.println("");
-		System.out.println("");
-		System.out.println("");
+		percentage = validVotes / totalVoters;
+		System.out.println("Porcentagem de votos válidos: " + percentage + "%");
+		
+		percentage = blankVotes / totalVoters;
+		System.out.println("Porcentagem de votos em branco: " + percentage + "%");
+		
+		percentage = nullVotes / totalVoters;
+		System.out.println("Porcentagem de votos nulos: " + percentage + "%");
 
+	}
+	
+	public static boolean validateValue(int value) {
+		boolean valid = false;
+		
+		if (value >= 0) {
+			valid = true;
+		}
+		
+		return valid;
 	}
 
 }

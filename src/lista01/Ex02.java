@@ -1,9 +1,10 @@
 package lista01;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /* 
- * Escreva um algoritmo para ler as dimensıes de um ret‚ngulo (base e altura), calcular e escrever a ·rea do ret‚ngulo.
+ * Escreva um algoritmo para ler as dimens√µes de um ret√¢ngulo (base e altura), calcular e escrever a √°rea do ret√¢ngulo.
  * 
  * Write an algorithm to read the dimensions of a rectangle (base and height), calculate and write the area of the rectangle. 
  * 
@@ -11,21 +12,26 @@ import java.util.Scanner;
 
 public class Ex02 {
 	
-	static Scanner scan;
 
 	public static void main(String[] args) {
 		
-		scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
+		DecimalFormat format = new DecimalFormat("#.##");
 		
-		System.out.print("Digite o valor da base do triangulo: ");
+		System.out.print("Digite o valor da base do tri√¢gulo \n(Enter the base value of the triangle): ");
 		double base = scan.nextDouble();
 		
-		System.out.print("Digite o valor da altura do triangulo: ");
+		System.out.println();
+		
+		System.out.print("Digite o valor da altura do tri√¢gulo \n(Enter the height value of the triangle): ");
 		double height = scan.nextDouble();
 		
 		double area = (base * height) / 2;
 		
-		System.out.println("A ·rea do trinagulo È " + area);
+		System.out.println();
+		System.out.println("A √°rea do tri√¢gulo √© " + format.format(area));
+		System.out.println("The area of ‚Äã‚Äãthe triangle is " + format.format(area));
+		
 
 	}
 

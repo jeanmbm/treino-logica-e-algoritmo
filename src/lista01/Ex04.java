@@ -1,5 +1,6 @@
 package lista01;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /* 
@@ -13,13 +14,25 @@ import java.util.Scanner;
 
 public class Ex04 {
 	
-	static Scanner scan;
-	
 	public static void main(String[] args) {
 
+		double currentWage, readjustmentPercentage, newWage; 
+		Scanner scan = new Scanner(System.in);
+		DecimalFormat format = new DecimalFormat("#.##");
 		
+		System.out.print("Digite seu salário mensal atual \n(Enter your current monthly salary): ");
+		currentWage = scan.nextDouble();
 		
-		scan = new Scanner(System.in);
+		System.out.println();
+		
+		System.out.print("Digite o valor do percentual de reajuste, em porcentagem \n(Enter the readjustment percentage value, in percentage): ");
+		readjustmentPercentage = scan.nextDouble();
+		
+		newWage = currentWage + (currentWage * (readjustmentPercentage / 100));
+		
+		System.out.println();
+		System.out.println("Seu novo salário será de R$" + newWage);
+		System.out.println("Your new salary will be R$" + newWage);
 
 	}
 

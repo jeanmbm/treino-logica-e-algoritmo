@@ -1,5 +1,6 @@
 package lista01;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /*
@@ -18,9 +19,20 @@ public class Ex05 {
 
 	public static void main(String[] args) {
 
-		double distributorPercentage = 0.28, tax = 0.45;
+		double distributorPercentage = 0.28, tax = 0.45, factoryCost, finalCost;
+		DecimalFormat format = new DecimalFormat("#.##");
 		Scanner scan = new Scanner(System.in);
+		
 
+		System.out.print("Digite o custo de fábrica do automóvel \n(Enter the factory cost of the car): ");
+		factoryCost = scan.nextDouble();
+		
+		finalCost = factoryCost + (factoryCost * distributorPercentage) + (factoryCost * tax);
+		
+		System.out.println();
+		System.out.println("O custo final do automóvel será de R$" + format.format(finalCost));
+		System.out.println("The final cost of the car will be R$" + format.format(finalCost));
+		
 	}
 
 }

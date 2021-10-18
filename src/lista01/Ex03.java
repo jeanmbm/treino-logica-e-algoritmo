@@ -24,28 +24,23 @@ public class Ex03 {
 		scan = new Scanner(System.in);
 		
 		System.out.print("Digite o nome do município: ");
-//		county = String.valueOf(scan.nextLine());
-		country = "Goiânia";
+		country = String.valueOf(scan.nextLine());
 		
 		System.out.print("Digite o número total de eleitores do município: ");
-//		totalVoters = scan.nextInt();
-		totalVoters = 100;
+		totalVoters = scan.nextInt();
 		
 		System.out.print("Digite o número total de votos válidos: ");
-//		validVotes = scan.nextInt();
-		validVotes = 73;
+		validVotes = scan.nextInt();
 		
 		System.out.print("Digite o número total de votos em branco: ");
-//		blankVotes = scan.nextInt();
-		blankVotes = 17;
+		blankVotes = scan.nextInt();
 		
 		System.out.print("Digite o número total de votos nulos: ");
-//		nullVotes = scan.nextInt();
-		nullVotes = 10;
+		nullVotes = scan.nextInt();
 		
 		System.out.println();
 		System.out.println();
-		System.out.println("|============== VOTAÇÃO ==============|");
+		System.out.println("|================== VOTAÇÃO ==================|");
 		System.out.println("Município de " + country);
 		System.out.println("Total de eleitores: " + totalVoters);
 		
@@ -60,14 +55,14 @@ public class Ex03 {
 
 	}
 	
-	public static boolean validateValue(int value) {
-		boolean valid = false;
-		
-		if (value >= 0) {
-			valid = true;
-		}
-		
-		return valid;
-	}
+//	public static boolean validateValue(int value) {
+//		boolean valid = false;
+//		
+//		if (value >= 0) {
+//			valid = true;
+//		}
+//		
+//		return valid;
+//	}
 
 }

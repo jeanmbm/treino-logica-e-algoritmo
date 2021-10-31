@@ -23,14 +23,20 @@ public class Ex16 {
 		System.out.print("Digite a hora de início da partida \n(Enter the start time of the match): ");
 		startTime = scan.nextInt();	
 		
+		System.out.println();
+		
 		System.out.print("Digite a hora do fim da partida \n(Enter the match end time): ");
 		endTime = scan.nextInt();
 		
-		if (startTime > endTime) {
-			duration = startTime - endTime;
+		if (startTime < endTime) {
+			duration = endTime - startTime;
 		} else {
-
+			duration = (24 - startTime) + endTime;
 		}
+		
+		System.out.println();
+		System.out.println("A partida durou " + duration + " hora(s)");
+		System.out.println("The match lasted " + duration + " hour(s)");
 		
 	}
 

@@ -1,28 +1,29 @@
-#Treino de lógica e algorítmo básico 
+# Treino de lÃ³gica e algorÃ­tmo bÃ¡sico 
 
-Repositório dedicado a resolução de execícios de algoritmo e lógica. 
-Todos os comandos dos execícios estarão no começo de cada classe.
+RepositÃ³rio dedicado a resoluÃ§Ã£o de execÃ­cios de algoritmo e lÃ³gica. 
+Todos os comandos dos execÃ­cios estarÃ£o no comeÃ§o de cada classe.
 
-###Lista 01
+### Lista 01
 
-- [x] Exercício 01
-- [x] Exercício 02
-- [x] Exercício 03
-- [x] Exercício 04
-- [x] Exercício 05
-- [x] Exercício 06
-- [x] Exercício 07
-- [x] Exercício 08
-- [x] Exercício 09
-- [x] Exercício 10
-- [x] Exercício 11
-- [x] Exercício 12
-- [x] Exercício 13
-- [x] Exercício 14
-- [x] Exercício 15
-- [x] Exercício 16
-- [x] Exercício 17
-- [x] Exercício 18
-- [x] Exercício 19
-- [x] Exercício 20
+- [x] ExercÃ­cio 01
+- [x] ExercÃ­cio 02
+- [x] ExercÃ­cio 03
+- [x] ExercÃ­cio 04
+- [x] ExercÃ­cio 05
+- [x] ExercÃ­cio 06
+- [x] ExercÃ­cio 07
+- [x] ExercÃ­cio 08
+- [x] ExercÃ­cio 09
+- [x] ExercÃ­cio 10
+- [x] ExercÃ­cio 11
+- [x] ExercÃ­cio 12
+- [x] ExercÃ­cio 13
+- [x] ExercÃ­cio 14
+- [x] ExercÃ­cio 15
+- [x] ExercÃ­cio 16
+- [x] ExercÃ­cio 17
+- [x] ExercÃ­cio 18
+- [x] ExercÃ­cio 19
+- [x] ExercÃ­cio 20
 
+### Lista 02

@@ -34,6 +34,8 @@ public class Ex07 {
 		System.out.print("Informe a nota da segunda avaliação \n(Inform the grade of the second evaluation): ");
 		secondNote = scan.nextDouble();
 		
+		System.out.println();
+		
 		System.out.print("Informe a nota da terceira avaliação \n(Inform the grade of the third evaluation): ");
 		thirdNote = scan.nextDouble();
 		

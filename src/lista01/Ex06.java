@@ -1,5 +1,6 @@
 package lista01;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /*
@@ -16,12 +17,38 @@ import java.util.Scanner;
  * */
 
 public class Ex06 {
-
-	static Scanner scan;
 	
 	public static void main(String[] args) {
 		
-		scan = new Scanner(System.in);
+		double fixedSalary, finalSalary, totalSalesAmount, commissionPerCarSold;
+		int numberCarsSold;
+		DecimalFormat format = new DecimalFormat("#.##");
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("Digite o valor do salário fixo do vendedor \n(Enter the amount of the salesperson's fixed salary): ");
+		fixedSalary = scan.nextDouble();
+		
+		System.out.println();
+		
+		System.out.print("Digite o valor total das vendas efetuadas pelo vendedor \n(Enter the total amount of sales made by the seller): ");
+		totalSalesAmount = scan.nextDouble();
+		
+		System.out.println();
+		
+		System.out.print("Digite o número total de carros vendidos pelo vendedor \n(Enter the total number of cars sold by the seller): ");
+		numberCarsSold = scan.nextInt();
+		
+		System.out.println();
+		
+		System.out.print("Digite o valor recebido por carro vendido \n(Enter the amount received per car sold): ");
+		commissionPerCarSold = scan.nextDouble();
+		
+		finalSalary = fixedSalary + (commissionPerCarSold * numberCarsSold) + (0.05 * totalSalesAmount);
+		
+		System.out.println();
+		System.out.println("O salário total do vendedor será de $" + format.format(finalSalary));
+		System.out.println("The seller's total salary will be $" + format.format(finalSalary));
+
 	}
 
 }

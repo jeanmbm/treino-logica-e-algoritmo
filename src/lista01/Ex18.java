@@ -25,7 +25,7 @@ public class Ex18 {
 		
 		System.out.println();
 		
-		System.out.print("Digite o valor da vendas efetuadas pelo vendedor \n(Enter the amount of sales made by the seller): ");
+		System.out.print("Digite o valor das vendas efetuadas pelo vendedor \n(Enter the amount of sales made by the seller): ");
 		salesMadeValue = scan.nextDouble();
 		
 		if (salesMadeValue <= 1500) {
@@ -35,8 +35,8 @@ public class Ex18 {
 		}
 		
 		System.out.println();
-		System.out.println("O salário total do vendedor será de R$" + format.format(totalSalary));
-		System.out.println("The seller's total salary will be R$" + format.format(totalSalary));
+		System.out.println("O salário total do vendedor será de $" + format.format(totalSalary));
+		System.out.println("The seller's total salary will be $" + format.format(totalSalary));
 		
 	}
 

@@ -30,8 +30,8 @@ public class Ex05 {
 		finalCost = factoryCost + (factoryCost * distributorPercentage) + (factoryCost * tax);
 		
 		System.out.println();
-		System.out.println("O custo final do automóvel será de R$" + format.format(finalCost));
-		System.out.println("The final cost of the car will be R$" + format.format(finalCost));
+		System.out.println("O custo final do automóvel será de $" + format.format(finalCost));
+		System.out.println("The final cost of the car will be $" + format.format(finalCost));
 		
 	}
 

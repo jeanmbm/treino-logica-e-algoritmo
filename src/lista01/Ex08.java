@@ -1,6 +1,7 @@
 package lista01;
 
 import java.text.DecimalFormat;
+import java.util.Iterator;
 import java.util.Scanner;
 
 /*

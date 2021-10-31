@@ -31,8 +31,8 @@ public class Ex04 {
 		newWage = currentWage + (currentWage * (readjustmentPercentage / 100));
 		
 		System.out.println();
-		System.out.println("Seu novo salário será de R$" + newWage);
-		System.out.println("Your new salary will be R$" + newWage);
+		System.out.println("Seu novo salário será de $" + newWage);
+		System.out.println("Your new salary will be $" + newWage);
 
 	}
 

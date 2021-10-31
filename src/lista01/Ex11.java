@@ -27,11 +27,11 @@ public class Ex11 {
 		System.out.println();
 		System.out.println();
 		System.out.println("Foi/foram compra(s) " + applePurchsed +  " maçã(s)");
-		System.out.println((applePurchsed < 12) ? "O valor a ser pago será de R$" + format.format(applePurchsed * applePrice) : "O valor a ser pago será de R$" + format.format(applePurchsed * appleDozenPrice));
+		System.out.println((applePurchsed < 12) ? "O valor a ser pago será de $" + format.format(applePurchsed * applePrice) : "O valor a ser pago será de R$" + format.format(applePurchsed * appleDozenPrice));
 		
 		System.out.println();
 		System.out.println("Was/were purchased " + applePurchsed +  " apple(s)");
-		System.out.println((applePurchsed < 12) ? "The amount to be paid will be R$" + format.format(applePurchsed * applePrice) : "The amount to be paid will be R$" + format.format(applePurchsed * appleDozenPrice));
+		System.out.println((applePurchsed < 12) ? "The amount to be paid will be $" + format.format(applePurchsed * applePrice) : "The amount to be paid will be R$" + format.format(applePurchsed * appleDozenPrice));
 		
 	}
 

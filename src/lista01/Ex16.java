@@ -20,13 +20,17 @@ public class Ex16 {
 		int startTime, endTime, duration;
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Digite a hora de início da partida (Enter the start time of the match): ");
+		System.out.print("Digite a hora de início da partida \n(Enter the start time of the match): ");
 		startTime = scan.nextInt();	
 		
-		System.out.println("Digite a hora do fim da partida (Enter the match end time): ");
+		System.out.print("Digite a hora do fim da partida \n(Enter the match end time): ");
 		endTime = scan.nextInt();
 		
-		
+		if (startTime > endTime) {
+			duration = startTime - endTime;
+		} else {
+
+		}
 		
 	}
 

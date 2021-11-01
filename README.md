@@ -1,9 +1,13 @@
-#Treino de lógica e algorítmo básico 
+# Treino de algorítmo e lógica
 
 Repositório dedicado a resolução de execícios de algoritmo e lógica. 
 Todos os comandos dos execícios estarão no começo de cada classe.
+<br>
+**Exercícios básicos:** 1 a 9
+<br>
+**Exercícios condicionais:** 10 a ...
 
-###Lista 01
+### Lista 01
 
 - [x] Exercício 01
 - [x] Exercício 02
@@ -25,4 +29,12 @@ Todos os comandos dos execícios estarão no começo de cada classe.
 - [x] Exercício 18
 - [x] Exercício 19
 - [x] Exercício 20
-
+- [x] Exercício 21
+- [ ] Exercício 22
+- [ ] Exercício 23
+- [ ] Exercício 24
+- [ ] Exercício 25
+- [ ] Exercício 26
+- [ ] Exercício 27
+- [ ] Exercício 28
+- [ ] Exercício 29

@@ -38,3 +38,5 @@ Todos os comandos dos execícios estarão no começo de cada classe.
 - [ ] Exercício 27
 - [ ] Exercício 28
 - [ ] Exercício 29
+
+

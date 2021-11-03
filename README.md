@@ -1,13 +1,16 @@
 # Treino de algorítmo e lógica
 
-Repositório dedicado a resolução de execícios de algoritmo e lógica. 
-Todos os comandos dos execícios estarão no começo de cada classe.
+Repositório dedicado a resolução de execícios de algoritmo e lógica. Todos os comandos dos execícios estarão no começo de cada classe.
 <br>
-**Exercícios básicos:** 1 a 9
 <br>
-**Exercícios condicionais:** 10 a ...
+Repository dedicated to solving the execution of algorithms and logics. All exercise commands will be at the beginning of each class.
+<br>
+<br>
+**Exercícios básicos (basic exercises):** 1 a 9
+<br>
+**Exercícios condicionais (conditional exercises):** 10 a ...
 
-### Lista 01
+### Lista
 
 - [x] Exercício 01
 - [x] Exercício 02
@@ -31,9 +34,9 @@ Todos os comandos dos execícios estarão no começo de cada classe.
 - [x] Exercício 20
 - [x] Exercício 21
 - [ ] Exercício 22
-- [ ] Exercício 23
-- [ ] Exercício 24
-- [ ] Exercício 25
+- [x] Exercício 23
+- [x] Exercício 24
+- [x] Exercício 25
 - [ ] Exercício 26
 - [ ] Exercício 27
 - [ ] Exercício 28
